@@ -1,4 +1,3 @@
-from selenium.webdriver.firefox.options import Options
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -7,9 +6,14 @@ import os
 import glob
 import time
 
-##NEXT: CHECK IF CRDOWNLOAD FILE ENDING NOT OCCURING ANYMORE
-
-
+#TODO: CHECK IF CRDOWNLOAD FILE ENDING NOT OCCURING ANYMORE
+#TODO: finish methods for scraping of all podcast base urls
+#TODO: mechanism to download only new podcasts
+#TODO: check requirements
+#TODO: increase actual database of transcripts (perform downloads)
+#TODO: remove absolute paths
+#TODO: for requirements: chrome,... in rep -> relative path
+#TODO: distinguish between languages
 
 class script_load:
 
@@ -173,6 +177,6 @@ class script_load:
         return pages
 
 
-
+    #other functions
     def set_base_url(self, base_url):
         self.current_base_url=base_url
