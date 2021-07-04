@@ -11,14 +11,13 @@ import time
 
 
 
-class autodownload:
+class script_load:
 
     def __init__(self):
-        self.firefox_profile_path = '/Users/martin/Library/Application Support/Firefox/Profiles/fw238lnm.user1'
         self.base_url = None
         self.chrome_binary_location = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
-        self.chrome_driver_binary_location = "/Users/martin/Projects/autodownload/chromedriver"
-        self.default_download_location = "/Users/martin/Projects/autodownload/testdownloads"
+        self.chrome_driver_binary_location = "/Users/martin/Projects/script_load/chromedriver"
+        self.default_download_location = "/Users/martin/Projects/script_load/testdownloads"
 
 
     def is_valid_page(self, url: str):
