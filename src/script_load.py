@@ -14,6 +14,7 @@ import time
 #TODO: remove absolute paths
 #TODO: for requirements: chrome,... in rep -> relative path
 #TODO: distinguish between languages
+#TODO: get .gitignore working
 
 class script_load:
 

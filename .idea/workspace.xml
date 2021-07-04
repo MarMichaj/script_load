@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35613bc1-0dac-4cf9-a1fe-c26ec4dd879c" name="Default Changelist" comment="refactoring, new names for methods">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="35613bc1-0dac-4cf9-a1fe-c26ec4dd879c" name="Default Changelist" comment="added TODO's">
       <change beforePath="$PROJECT_DIR$/src/script_load.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/script_load.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +51,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625407702099</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added TODO's">
+      <created>1625408366397</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1625408366397</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -71,6 +76,7 @@
     <MESSAGE value="renamed class" />
     <MESSAGE value="added gitignore" />
     <MESSAGE value="refactoring, new names for methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring, new names for methods" />
+    <MESSAGE value="added TODO's" />
+    <option name="LAST_COMMIT_MESSAGE" value="added TODO's" />
   </component>
 </project>
