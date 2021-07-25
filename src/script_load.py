@@ -6,8 +6,11 @@ import os
 import glob
 import time
 
-#TODO: CHECK IF CRDOWNLOAD FILE ENDING NOT OCCURING ANYMORE
+#TODO: Update memory of list of podcasts when only number of pages needed. Or even leave out and just check if page is valid listing
 #TODO: finish methods for scraping of all podcast base urls
+
+#TODO: CHECK IF CRDOWNLOAD FILE ENDING NOT OCCURING ANYMORE
+
 #TODO: mechanism to download only new podcasts
 #TODO: check requirements
 #TODO: increase actual database of transcripts (perform downloads)
@@ -150,13 +153,49 @@ class script_load:
             pages.append(base_url + "?page=" + str(i))
         return pages
 
-
-
     #functions for scraping base urls for all podcasts
 
 
-    def is_valid_podcast_list_page(self):
-        print("hello")
+    def is_valid_podcast_list_page(self, url:str):
+        """
+        checks if url leads to page with list of links to podcast subpages
+
+        :return: Boolean
+        """
+        options = webdriver.ChromeOptions()
+        options.binary_location = self.chrome_binary_location
+        options.headless = True
+
+        driver = webdriver.Chrome(self.chrome_driver_binary_location, options=options)
+        driver.get(url)
+        text = "Sorry, we currently don't have a podcast with this category and language"
+        if text in driver.page_source:
+            driver.quit()
+            return False
+        else:
+            driver.quit()
+            return True
+
+    def get_urls_of_podcast_list_pages(self):
+        """
+                :param base_url:  url of first page for list of podcasts
+
+                :return: list of all url's that list podcast url's
+                """
+
+        i = 1
+        print("current page:")
+        while i > 0:
+            if not self.is_valid_podcast_list_page(self.url_all_podcasts + "?page=" + str(i)):
+                break
+            else:
+                print(i)
+                i += 1
+        number_of_pages = i - 1
+        pages = []
+        for i in range(1, number_of_pages + 1):
+            pages.append(self.url_all_podcasts + "?page=" + str(i))
+        return pages
 
     def get_base_urls_for_all_podcasts(self):
         """
@@ -176,7 +215,6 @@ class script_load:
         for i in range(1, number_of_pages + 1):
             pages.append(self.url_all_podcasts + "?page=" + str(i))
         return pages
-
 
     #other functions
     def set_base_url(self, base_url):
