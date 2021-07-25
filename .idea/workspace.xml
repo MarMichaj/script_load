@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35613bc1-0dac-4cf9-a1fe-c26ec4dd879c" name="Default Changelist" comment="added TODO">
+    <list default="true" id="35613bc1-0dac-4cf9-a1fe-c26ec4dd879c" name="Default Changelist" comment="worked on 'get_urls_of_podcast_list_pages()', added TODO">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/script_load.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/script_load.py" afterDir="false" />
@@ -96,7 +96,21 @@
       <option name="project" value="LOCAL" />
       <updated>1625408514831</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="worked on 'get_urls_of_podcast_list_pages()', added TODO">
+      <created>1627242925987</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1627242925987</updated>
+    </task>
+    <task id="LOCAL-00007" summary="worked on 'get_urls_of_podcast_list_pages()', added TODO">
+      <created>1627242935244</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1627242935244</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,6 +131,7 @@
     <MESSAGE value="refactoring, new names for methods" />
     <MESSAGE value="added TODO's" />
     <MESSAGE value="added TODO" />
-    <option name="LAST_COMMIT_MESSAGE" value="added TODO" />
+    <MESSAGE value="worked on 'get_urls_of_podcast_list_pages()', added TODO" />
+    <option name="LAST_COMMIT_MESSAGE" value="worked on 'get_urls_of_podcast_list_pages()', added TODO" />
   </component>
 </project>

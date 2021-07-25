@@ -8,7 +8,7 @@
 # Press the green button in the gutter to run the script.
 import script_load
 a = script_load.script_load()
-p = a.get_urls_of_podcast_list_pages()
+p = a.get_all_podcast_urls()
 print(p)
 
 #a.set_base_url("https://www.happyscribe.com/public/lex-fridman-podcast-artificial-intelligence-ai")
