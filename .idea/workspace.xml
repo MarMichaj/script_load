@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35613bc1-0dac-4cf9-a1fe-c26ec4dd879c" name="Default Changelist" comment="worked on 'get_urls_of_podcast_list_pages()', added TODO">
+      <change afterPath="$PROJECT_DIR$/src/script_load_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/script_load.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/script_load.py" afterDir="false" />
@@ -110,7 +111,28 @@
       <option name="project" value="LOCAL" />
       <updated>1627242935244</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="worked on 'get_urls_of_podcast_list_pages()', added TODO">
+      <created>1627251909423</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1627251909424</updated>
+    </task>
+    <task id="LOCAL-00009" summary="worked on 'get_urls_of_podcast_list_pages()', added TODO">
+      <created>1627251977284</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1627251977284</updated>
+    </task>
+    <task id="LOCAL-00010" summary="worked on 'get_urls_of_podcast_list_pages()', added TODO">
+      <created>1627251993493</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1627251993493</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,6 +153,7 @@
     <MESSAGE value="refactoring, new names for methods" />
     <MESSAGE value="added TODO's" />
     <MESSAGE value="added TODO" />
+    <MESSAGE value="implemented get_all_podcast_urls(), new TODOS" />
     <MESSAGE value="worked on 'get_urls_of_podcast_list_pages()', added TODO" />
     <option name="LAST_COMMIT_MESSAGE" value="worked on 'get_urls_of_podcast_list_pages()', added TODO" />
   </component>

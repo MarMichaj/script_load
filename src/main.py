@@ -7,9 +7,11 @@
 
 # Press the green button in the gutter to run the script.
 import script_load
-a = script_load.script_load()
-p = a.get_all_podcast_urls()
-print(p)
+sl = script_load.script_load()
+for i in range(4,8):
+    sl.current_base_url= sl.all_podcast_urls[i]
+    sl.current_download_location = "../downloads/"+str(i)
+    sl.get_all_transcripts_of_this_podcast()
 
 #a.set_base_url("https://www.happyscribe.com/public/lex-fridman-podcast-artificial-intelligence-ai")
 #a.get_all_transcripts_of_this_podcast()
